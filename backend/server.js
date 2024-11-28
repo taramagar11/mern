@@ -1,7 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
-const adminRoutes = require('./routes/admin'); // Import admin routes
+const adminRoutes = require('./routes/adminRoutes'); // Import admin routes
 
 // Initialize dotenv to access environment variables
 dotenv.config();
